@@ -1,0 +1,20 @@
+//
+//  UIVController +  Extension .swift
+//  MyGameApp
+//
+//  Created by Jennifer Chukwuemeka on 19/09/2022.
+//
+
+import UIKit
+
+extension UIViewController {
+    static var identifier: String {
+        return String(describing: self)
+    }
+    static func instantiate() -> Self {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let controller = storyboard.instantiateViewController(identifier: identifier) as! Self
+        return controller
+        
+    }
+}
