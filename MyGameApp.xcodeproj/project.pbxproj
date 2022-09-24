@@ -32,6 +32,7 @@
 		3F5B865F28DAE45500A2BE60 /* onBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5B865E28DAE45500A2BE60 /* onBoardingViewController.swift */; };
 		3F5B866128DAEE2200A2BE60 /* onboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5B866028DAEE2200A2BE60 /* onboardingSlide.swift */; };
 		3F5B866328DB027100A2BE60 /* onboardinCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5B866228DB027100A2BE60 /* onboardinCollectionViewCell.swift */; };
+		3F64BE2E28DC690C00BA299C /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F64BE2D28DC690C00BA299C /* UserDefaults+Extension.swift */; };
 		8EAAAD898D62AADDBBFD9D83 /* Pods_MyGameApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BA15DB5F5345F706A3EE87 /* Pods_MyGameApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +65,7 @@
 		3F5B865E28DAE45500A2BE60 /* onBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onBoardingViewController.swift; sourceTree = "<group>"; };
 		3F5B866028DAEE2200A2BE60 /* onboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardingSlide.swift; sourceTree = "<group>"; };
 		3F5B866228DB027100A2BE60 /* onboardinCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardinCollectionViewCell.swift; sourceTree = "<group>"; };
+		3F64BE2D28DC690C00BA299C /* UserDefaults+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extension.swift"; sourceTree = "<group>"; };
 		68BA15DB5F5345F706A3EE87 /* Pods_MyGameApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyGameApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8D49158DDF10B7067F76B52 /* Pods-MyGameApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyGameApp.release.xcconfig"; path = "Target Support Files/Pods-MyGameApp/Pods-MyGameApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -158,6 +160,7 @@
 				3F5B864428D8359500A2BE60 /* String + Extension.swift */,
 				3F5B864928D83B8E00A2BE60 /* UIView + Extension.swift */,
 				3F5B865B28D8FFD200A2BE60 /* UIVController +  Extension .swift */,
+				3F64BE2D28DC690C00BA299C /* UserDefaults+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 				3F5B865428D8726000A2BE60 /* topRated.swift in Sources */,
 				3F5B864A28D83B8E00A2BE60 /* UIView + Extension.swift in Sources */,
 				3F5B866128DAEE2200A2BE60 /* onboardingSlide.swift in Sources */,
+				3F64BE2E28DC690C00BA299C /* UserDefaults+Extension.swift in Sources */,
 				3F5B863428D7B00800A2BE60 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

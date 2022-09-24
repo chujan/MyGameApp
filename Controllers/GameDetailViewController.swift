@@ -34,25 +34,11 @@ class GameDetailViewController: UIViewController {
     
     @IBAction func gameTapped(_ sender: UIButton)  {
        
-        guard let url = URL(string: topGame.gameURL ?? "" )
-        else {
+       let gameURL = getGameUrl()
+        if gameURL == nil {
             return
         }
-        ProgressHUD.show()
-       
-       
-        
-       
-        
-//        guard let url = URL(string: popular.gameURL ?? "") else {
-//
-//            return
-//        }
-//
-//
-//        guard let url = URL(string: topGame.gameURL ?? "") else {
-//            return
-//        }
+        guard let url = URL (string: gameURL!) else { return}
 
         let vc = SFSafariViewController(url: url)
         
@@ -61,6 +47,17 @@ class GameDetailViewController: UIViewController {
 
         
         
+        
+    }
+    
+    private  func getGameUrl() -> String? {
+        if topGame?.gameURL != nil {
+            return topGame.gameURL
+        }
+        if  popular?.gameURL != nil {
+            return popular.gameURL
+        }
+        return game?.gameURL
         
     }
     

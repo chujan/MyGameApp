@@ -12,7 +12,7 @@
         <!--On Boarding View Controller-->
         <scene sceneID="KmC-CR-Vn1">
             <objects>
-                <viewController id="IfS-ft-m3M" customClass="onBoardingViewController" customModule="MyGameApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="onBoardingViewController" id="IfS-ft-m3M" customClass="onBoardingViewController" customModule="MyGameApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Etm-Ex-SjS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
